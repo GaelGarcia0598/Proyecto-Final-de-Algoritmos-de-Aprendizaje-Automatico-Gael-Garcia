@@ -1,0 +1,80 @@
+{
+  "model_name": "RandomForest",
+  "threshold": 0.4,
+  "val_metrics": {
+    "Accuracy": {
+      "LogisticRegression": 0.8077651515151515,
+      "RandomForest": 0.7632575757575758,
+      "SVC": 0.7774621212121212
+    },
+    "Precision": {
+      "LogisticRegression": 0.6652360515021459,
+      "RandomForest": 0.5392670157068062,
+      "SVC": 0.5737704918032787
+    },
+    "Recall": {
+      "LogisticRegression": 0.5535714285714286,
+      "RandomForest": 0.7357142857142858,
+      "SVC": 0.625
+    },
+    "F1-score": {
+      "LogisticRegression": 0.6042884990253411,
+      "RandomForest": 0.622356495468278,
+      "SVC": 0.5982905982905983
+    },
+    "ROC-AUC": {
+      "LogisticRegression": 0.8504947533136966,
+      "RandomForest": 0.8361446060382915,
+      "SVC": 0.8315836708394697
+    }
+  },
+  "test_metrics": {
+    "Accuracy": 0.7426679280983917,
+    "Precision": 0.510158013544018,
+    "Recall": 0.8042704626334519,
+    "F1-score": 0.6243093922651933,
+    "ROC-AUC": 0.8359366401291412
+  },
+  "top_features": [
+    [
+      "numeric__monthly_to_tenure_ratio",
+      0.12918902292692414
+    ],
+    [
+      "numeric__contract_short_term",
+      0.09089319685845093
+    ],
+    [
+      "numeric__TotalCharges",
+      0.07551461350045796
+    ],
+    [
+      "numeric__tenure",
+      0.0713068063014669
+    ],
+    [
+      "categorical__Contract_Month-to-month",
+      0.07017262220083027
+    ],
+    [
+      "numeric__total_over_tenure",
+      0.06461838857818288
+    ],
+    [
+      "numeric__MonthlyCharges",
+      0.06378986605848734
+    ],
+    [
+      "categorical__OnlineSecurity_No",
+      0.04222590344537242
+    ],
+    [
+      "categorical__TechSupport_No",
+      0.03009489411413784
+    ],
+    [
+      "categorical__Contract_Two year",
+      0.029745617360976837
+    ]
+  ]
+}

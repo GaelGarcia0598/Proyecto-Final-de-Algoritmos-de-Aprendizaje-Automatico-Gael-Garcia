@@ -1,0 +1,44 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Archivos temporales de editores y sistemas
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales de Microsoft Office
+~$*
+
+# Salidas temporales de ejecucion
+*.log
+coverage.xml
+htmlcov/
+
+# Configuracion local de VS Code
+.vscode/
+
+# Secretos y configuracion local
+.env
+.env.*
+!.env.example
+
+# Archivos auxiliares locales
+check_notebook_exec.py
+validate_notebook.py
